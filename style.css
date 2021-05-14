@@ -656,7 +656,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #797979!important;
 }
 
 .container {
@@ -741,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #0F0F0F!important;
 }
 
 .portfolio-thumb {
@@ -776,20 +776,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #000000;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #000000;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #000000!important;
     color: #FFFFFF!important;
 }
 
@@ -798,15 +798,15 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .icon-dark-slate-blue {
@@ -1044,4 +1044,13 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.keywords{
+    color:#383838;
+    font-size:1px;
+}
+
+.row .row-no-gutters .social .keywords{
+color:#2B1003;
 }

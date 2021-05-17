@@ -335,6 +335,8 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border-bottom: 2px solid black;
+    font-size: 18px;
 }
 
 .navbar-toggle {
@@ -360,11 +362,6 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
-}
-
-.keywords{
-    color:#cccccc;
-    font-size:1px;
 }
 
 @media (min-width: 768px) {
@@ -485,7 +482,7 @@ button {
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 80px!important;
 }
 
 .sm-shadow {
@@ -656,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #797979!important;
+    color: #575757!important;
 }
 
 .container {
@@ -681,8 +678,8 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
+p{
+    font-size:18px;
 }
 
 .tight-width-whitespace {
@@ -710,8 +707,13 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size:40px;
     line-height: 1.4em;
+    text-decoration: underline;
+}
+
+.description{
+    font-size:20px;
 }
 
 h3 {
@@ -727,9 +729,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -740,8 +740,36 @@ h4 {
     margin-top: 24px;
 }
 
+.noscollaboration{
+    width: 100%;
+    font-size:20px;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+
+
+.col-sm-4 ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:18px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+.col-sm-4{
+    color: black;
+
+}
+
 .white {
-    color: #0F0F0F!important;
+    color: rgb(32, 32, 32)!important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -764,7 +792,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: none!important;
 }
 
 .bgc-white {
@@ -776,37 +804,45 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #000000;
+    background-color: #F3976C;
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: white!important;
+    font-size: 30px;
+ 
 }
 
+
 .btn-atomic-tangerine {
-    background: #000000;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #000000!important;
+    background: black!important;
     color: #FFFFFF!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black!important;
+    background-color: #F3976C;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
 
 .ltc-white:hover {
-    color: #FFFFFF!important;
+    color: #cccccc!important;
+    background-color: black;
 }
 
 .ltc-atomic-tangerine {
-    color: #FFFFFF!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #FFFFFF!important;
+    color: #c27956!important;
 }
 
 .icon-dark-slate-blue {
@@ -1046,11 +1082,5 @@ h4 {
     }
 }
 
-.keywords{
-    color:#383838;
-    font-size:1px;
-}
 
-.row .row-no-gutters .social .keywords{
-color:#2B1003;
-}
+

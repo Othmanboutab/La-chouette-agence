@@ -56,6 +56,23 @@ a:hover {
     padding: 20px 50px;
 }
 
+.parlons{
+    font: size 24px !important;
+    color:black !important;
+}
+
+.descriptionpage2{
+    font-size:18px;
+    color: black !important;
+}
+
+.nouscontacter{
+    
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -100,7 +117,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: black;
 }
 
 .d-bloc button:hover {
@@ -518,7 +535,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -586,6 +603,10 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+}
+
+.lightbox-caption p{
+    font-size:16px !important;
 }
 
 .close-lightbox {
@@ -668,6 +689,8 @@ a {
     font-size: 36px;
 }
 
+
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -690,6 +713,7 @@ p{
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #F3976C !important;
 }
 
 .cta-hero {
@@ -740,36 +764,12 @@ h4 {
     margin-top: 24px;
 }
 
-.noscollaboration{
-    width: 100%;
-    font-size:20px;
-    text-decoration: none;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
 
 
-
-
-.col-sm-4 ul{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    font-size:18px;
-    margin-left: 20px;
-    list-style: none;
-}
-
-
-.col-sm-4{
-    color: black;
-
-}
 
 .white {
-    color: rgb(32, 32, 32)!important;
-    font-size: 20px;
+    color: black!important;
+    font-size: 24px;
 }
 
 .portfolio-thumb {
@@ -793,6 +793,8 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: none!important;
+    font-size: 18px;
+    padding: 10px;
 }
 
 .bgc-white {
@@ -808,10 +810,16 @@ h4 {
 }
 
 .tc-white {
-    color: white!important;
-    font-size: 30px;
+    color: black !important;
+    font-size: 24px;
  
 }
+
+.pret{
+    color: #FFFFFF !important;
+}
+
+
 
 
 .btn-atomic-tangerine {
@@ -936,8 +944,6 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
-    h3,
     h4,
     h5,
     h6,
@@ -945,6 +951,7 @@ h4 {
     #disqus_thread {
         padding-left: 10px!important;
         padding-right: 10px!important;
+        font-size:16px;
     }
     .b-parallax {
         background-attachment: scroll;
@@ -1067,6 +1074,8 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+   
 }
 
 @media (max-width: 400px) {
@@ -1081,6 +1090,8 @@ h4 {
         text-align: center;
     }
 }
+
+
 
 
 

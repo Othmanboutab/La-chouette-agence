@@ -6,7 +6,8 @@ Le code source d'un site web déjà existant nous est donné. Le but du projet e
 Visualiser le site
 
 Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://othmanboutab.github.io/Openclassroom_Projet-4-la-chouette-agence/)
-Technologies, logiciels, outils et langages utilisés
+
+## Technologies, logiciels, outils et langages utilisés
 
 ```
   LightHouse

@@ -8,15 +8,15 @@ Visualiser le site
 Le code a été versionner sur GIT et déployé sur GITHUB clique ici
 Technologies, logiciels, outils et langages utilisés
 
-""
-LightHouse
-Wave Accessibility
-GTmetrix
-Visual Studio Code
-Git et Github
-HTML5
-CSS3
-Javascript
-Plugins : Liveserver, Beautify, JS & CSS Minifier
-Devtools
-""
+##
+  LightHouse
+  Wave Accessibility
+  GTmetrix
+  Visual Studio Code
+  Git et Github
+  HTML5
+  CSS3
+  Javascript
+  Plugins : Liveserver, Beautify, JS & CSS Minifier
+  Devtools
+##

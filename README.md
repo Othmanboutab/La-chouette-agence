@@ -5,10 +5,10 @@ Quatrième projet du parcours développeur web chez OpenClassrooms : "Optimisez 
 Le code source d'un site web déjà existant nous est donné. Le but du projet est d'optimiser au maximum le référencement et les performances du site internet. Il faudra rédiger un rapport d'optimisation en comparant les performances du site avant et après optimisation.
 Visualiser le site
 
-Le code a été versionner sur GIT et déployé sur GITHUB clique ici
+Le code a été versionner sur GIT et déployé sur GITHUB [clique ici](https://othmanboutab.github.io/Openclassroom_Projet-4-la-chouette-agence/)
 Technologies, logiciels, outils et langages utilisés
 
-##
+```
   LightHouse
   Wave Accessibility
   GTmetrix
@@ -19,4 +19,4 @@ Technologies, logiciels, outils et langages utilisés
   Javascript
   Plugins : Liveserver, Beautify, JS & CSS Minifier
   Devtools
-##
+```
